@@ -1,0 +1,11 @@
+{
+  "name": "twi-alert",
+  "manifest_version": 3,
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["alert.js"]
+    }
+  ]
+}
